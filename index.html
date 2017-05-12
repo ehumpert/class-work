@@ -4,7 +4,7 @@
 
 		<!-- Page Title: find this on the page tab -->
 		<title>
-		Too Many Questions
+			Questions to Ask
 		</title>
 
 		<meta charset="utf-8">
@@ -26,16 +26,16 @@
 	</head>
 
 	<!-- Visible page content goes below here -->
-	<body>
+	<body  style="background-color:lightblue">
 			<div class="container-fluid">
+			
 
 
-
-		<h1>Insightful Things</h1>
+		<h1>Wonder What You Will</h1>
 
 			<a href="../index.html">
 				<button class="btn btn-default">
-					<span class="fa fa-fw fa-chevron-left"></span> Return to First Thoughts
+					<span class="fa fa-fw fa-chevron-left"></span> Original Thoughts
 				</button>
 			</a>
 
@@ -51,7 +51,7 @@
 			<input class="form-control input-lg" type="text" v-model="keyword" name="search" placeholder="Ask..."> <!-- This is IMPORTANT!
 			It is the binding to the Vue2 model that processes the data -->
 
-			<div class="help-block">Search for Something You Want</div>
+			<div class="help-block">Type What You're Wondering About</div>
 
 		</div> <!-- end page left -->
 
@@ -63,13 +63,13 @@
 				<div class="panel panel-default">
 					<div class="panel-heading">
 
-						<h3><a class="isDarkBlue" :href="post.link">{{post.title}}</a></h3>
+						<h3><a class="isRed" :href="post.link">{{post.title}}</a></h3>
 
 					</div>
 					<div class="panel-body">
 
-						<img class="img-circle" :src="post.img"> <!-- this is bound to the img slot -->
-						<h4><em>by {{post.author}}</em></h4>
+						<img class="img-circle" :src="post.img" width="250px"> <!-- this is bound to the img slot -->
+						<h4><em>{{post.author}}</em></h4>
 
 						<p>{{post.body}}</p> <!-- this is bound to the body slot -->
 

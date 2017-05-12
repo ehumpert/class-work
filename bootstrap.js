@@ -37,19 +37,19 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'Look at this Thing', 		// this is the TITLE place in the class
-				'https://google.com',	// this is the LINK place in the class
-				'Elizabeth Humpert',			// this is the AUTHOR place in the class
-				'img-20.png',	// this is the IMAGE place in the class
-				'If we all believe one thing what are we?' // this is the BODY place in the class
+				'Cool Mac Tunes', 		// this is the TITLE place in the class
+				'https://www.youtube.com/watch?v=0HQqXllXpfQ',	// this is the LINK place in the class
+				'Vernor Winfield McBriare Smith IV',			// this is the AUTHOR place in the class
+				'mac.png',	// this is the IMAGE place in the class
+				'Chill tunes that let you think. Float down a river, and let your mind roam.' // this is the BODY place in the class
 				),
 
 			new Post(
-				'Slowly Drifting Down a River',
-				'https://www.youtube.com/watch?v=0HQqXllXpfQ',
-				'Vernor Winfield McBriare Smith IV',
-				'mac.jpg', // this is a local image in the same folder as the js script
-				'Chill cool tunes dancing down a floating river '
+				'Second Post: Lorem',
+				'https://vuejs.org',
+				'Sammie Author',
+				'img-200.jpg', // this is a local image in the same folder as the js script
+				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '
 				),
 
 			new Post(
@@ -69,17 +69,12 @@ const app = new Vue({
 				),
 
 			new Post(
-				'Another Unanswered Question I Have',
+				'Last Post: Jaded zombies',
 				'https://google.com',
 				'Anptoght Author',
 				'#',
-				'Why must we try if we get nothing out of it?'
-				),
-			new Post(
-				'All of the Things I Know'
-				'https://google.com'
-				'Whata Person
-			),
+				'Jaded zombies acted quaintly but kept driving their oxen forward.'
+				)
 		]
 	},
 
