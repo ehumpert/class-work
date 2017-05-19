@@ -45,25 +45,25 @@ const app = new Vue({
 				),
 
 			new Post(
-				'Second Post: Lorem',
-				'https://vuejs.org',
-				'Sammie Author',
-				'img-200.jpg', // this is a local image in the same folder as the js script
-				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '
+				'Crystals',
+				'http://www.chakras.info/chakra-stones/',
+				'',
+				'crystals.png', // this is a local image in the same folder as the js script
+				'Try one of these to feel balanced in your life.- Crystals can help you with any mental or physical problem that you have. Each of these correlate with different chakras, and help to heal the chakra. The colors of the different stones correspond with those of the chakras, so it can be quite easy to find an appropriate stone once you know what is ailing you. But if you don\'t know where to begin, here\'s a link to help start your search. Simply click on the word: Crystals'
 				),
 
 			new Post(
-				'This Post: Crazy Fredrick',
-				'https://google.com',
-				'Bob Author',
-				'https://unsplash.it/200',
-				'Crazy Fredrick bought many very exquisite opal jewels.'
+				'Meditation',
+				'https://www.youtube.com/watch?v=OW7TH2U4hps',
+				'Music for Meditation',
+				'singingbowls.png',
+				'If you\'re feeling stressed, sit in a calm or relaxing place, close your eyes, breath in and out, listing to this music, and free your mind from the struggle you have right now.'
 				),
 
 			new Post(
-				'Another Post: promptly judged',
-				'https://vuejs.org',
-				'Jane Author',
+				'Banks',
+				'https://www.youtube.com/watch?v=iyVxioyRfe0&list=PLZqsyBiYZFQ36FD4d2FWCebwModXHiDVn',
+				'Jillian Rose Banks',
 				'https://unsplash.it/200',
 				'We promptly judged antique ivory buckles for the next prize.'
 				),
