@@ -39,7 +39,7 @@ const app = new Vue({
 			new Post(
 				'Cool Mac Tunes', 		// this is the TITLE place in the class
 				'https://www.youtube.com/watch?v=0HQqXllXpfQ',	// this is the LINK place in the class
-				'Vernor Winfield McBriare Smith IV',			// this is the AUTHOR place in the class
+				'Salad Days',			// this is the AUTHOR place in the class
 				'mac.png',	// this is the IMAGE place in the class
 				'Chill tunes that let you think. Float down a river, and let your mind roam.' // this is the BODY place in the class
 				),
@@ -63,18 +63,50 @@ const app = new Vue({
 			new Post(
 				'Banks',
 				'https://www.youtube.com/watch?v=iyVxioyRfe0&list=PLZqsyBiYZFQ36FD4d2FWCebwModXHiDVn',
-				'Jillian Rose Banks',
-				'https://unsplash.it/200',
-				'We promptly judged antique ivory buckles for the next prize.'
+				'Goddess',
+				'banks.png',
+				'Funky tunes for when you feel the feels.'
 				),
 
 			new Post(
-				'Last Post: Jaded zombies',
-				'https://google.com',
-				'Anptoght Author',
-				'#',
-				'Jaded zombies acted quaintly but kept driving their oxen forward.'
-				)
+				'Solange',
+				'https://www.youtube.com/playlist?list=PLP0GECvHnGvduaKb3SyBFkD2int9XgWif',
+				'A Seat at the Table',
+				'solange.png',
+				'Here\'s some music that actually matters, and holds messages that need to be heard. Listen to this when you want something important, and if you feel like you need one whole long song, and flow.'
+				),
+			
+			new Post(
+				'Glass Animals',
+				'https://www.youtube.com/watch?v=49M1O2YgDfE&list=PL2kI801DjQIs-ZII-2Q8rFBjJ0tkdvusd',
+				'Zaba',
+				'glassanimals.png',
+				'Some like How To Be A Human Being better, but I must say that Zaba is by far the chillest of Glass Animals\' music. Listen for the funky rhythms and tunes.'
+				),
+							
+			new Post(
+				'Iron and Wine',
+				'https://www.youtube.com/watch?v=PsllPN_3MS0&list=PLn6AXi-5WlpIMQ6HklWpbuOKnPyXjM-DHhttps://www.youtube.com/watch?v=PsllPN_3MS0&list=PLn6AXi-5WlpIMQ6HklWpbuOKnPyXjM-DH',
+				'The Shepherd\'s Dog',
+				'ironandwine.png',
+				'Somehow these songs remind me of my childhood and the mountains.'
+				),
+				
+			new Post(
+				'Grateful Dead',
+				'https://www.youtube.com/watch?v=671AgW9xSiA',
+				'Ripple',
+				'gratefuldead.png',
+				'A classic song from my childhood. Also, the only song I can play on the guitar.'
+				),
+				
+			new Post(
+				'Bob Marley',
+				'https://www.youtube.com/watch?v=QrY9eHkXTa4',
+				'Redemption Song',
+				'gratefuldead.png',
+				'A classic song from my childhood. Also, the only song I can play on the guitar.'
+				),
 		]
 	},
 
