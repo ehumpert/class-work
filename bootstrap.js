@@ -37,7 +37,7 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'Cool Mac Tunes', 		// this is the TITLE place in the class
+				'Mac Demarco', 		// this is the TITLE place in the class
 				'https://www.youtube.com/watch?v=0HQqXllXpfQ',	// this is the LINK place in the class
 				'Salad Days',			// this is the AUTHOR place in the class
 				'mac.png',	// this is the IMAGE place in the class
@@ -104,8 +104,8 @@ const app = new Vue({
 				'Bob Marley',
 				'https://www.youtube.com/watch?v=QrY9eHkXTa4',
 				'Redemption Song',
-				'gratefuldead.png',
-				'A classic song from my childhood. Also, the only song I can play on the guitar.'
+				'bobmarley.png',
+				'A childhood song. Also, the only song I can play on the guitar.'
 				),
 		]
 	},
