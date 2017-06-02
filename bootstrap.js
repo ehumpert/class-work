@@ -86,7 +86,7 @@ const app = new Vue({
 							
 			new Post(
 				'Iron and Wine',
-				'https://www.youtube.com/watch?v=PsllPN_3MS0&list=PLn6AXi-5WlpIMQ6HklWpbuOKnPyXjM-DHhttps://www.youtube.com/watch?v=PsllPN_3MS0&list=PLn6AXi-5WlpIMQ6HklWpbuOKnPyXjM-DH',
+				'https://www.youtube.com/watch?v=PsllPN_3MS0&list=RDPsllPN_3MS0#t=0',
 				'The Shepherd\'s Dog',
 				'ironandwine.png',
 				'Somehow these songs remind me of my childhood and the mountains.'
@@ -105,7 +105,7 @@ const app = new Vue({
 				'https://www.youtube.com/watch?v=QrY9eHkXTa4',
 				'Redemption Song',
 				'bobmarley.png',
-				'A childhood song. Also, the only song I can play on the guitar.'
+				'This song gives me the chills, and reminds me of car rides when I was a child.'
 				),
 		]
 	},

@@ -31,10 +31,11 @@
 			
 
 
-		<h1>Relax Your Soul with These Tunes and Helpful Crystals</h1>
+		<h1>Relax Your Soul with These Tunes </h1>
 
 			<a href="../index.html">
 				<button class="btn btn-default">
+				
 					<span class="fa fa-fw fa-chevron-left"></span> Original Thoughts
 				</button>
 			</a>
@@ -48,10 +49,10 @@
 
 		<div class="col-md-4"> <!-- page left -->
 
-			<input class="form-control input-lg" type="text" v-model="keyword" name="search" placeholder="Ask..."> <!-- This is IMPORTANT!
+			<input class="form-control input-lg" type="text" v-model="keyword" name="search" placeholder="Artists..."> <!-- This is IMPORTANT!
 			It is the binding to the Vue2 model that processes the data -->
 
-			<div class="help-block">Type What You're Wondering About</div>
+			<div class="help-block">Search for Music</div>
 
 		</div> <!-- end page left -->
 
@@ -72,6 +73,7 @@
 						<h4><em>{{post.author}}</em></h4>
 
 						<p>{{post.body}}</p> <!-- this is bound to the body slot -->
+						
 
 					</div>
 
